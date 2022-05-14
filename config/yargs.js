@@ -3,7 +3,7 @@ const { describe } = require('yargs');
 
 const argv = require('yargs')
                 .option('m',{
-                    alias: 'multipliacion',
+                    alias: 'multiplicacion',
                     type: 'number',
                     demandOption: true,
                     describe: 'es la Base de la Multiplicacion'
